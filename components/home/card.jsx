@@ -1,7 +1,7 @@
 function Card(){
     return(
     <div className="card">
-        <img className="imgCard" src="/workshop.jpg" alt="" />
+        <img className="imgCard" src="./workshop.jpg" alt="" />
             <p className="titleCard">title prodact</p>
         <div className="des">
             <div className="container-price">
