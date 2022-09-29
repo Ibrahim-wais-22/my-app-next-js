@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+root{
+  --brown: #720026;
+  --pColor: #540b0e;
+  --wight:rgb(204, 223, 217);
+}
+a {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.home{
+  position: absolute;
+}
+/* --------------start Header ----------- */
+.Header{
+  width: 100%;
+  height: 30vh;
+  background-color:rgb(204, 223, 217);
+  position: relative;
+  z-index: 0;
+  position: fixed;
+}
+.continar{
+  display: flex;
+  justify-content: space-between;
+}
+.title-icon{
+  color: #720026;
+  font-size: 2rem ;
+  padding: 20px;
+  font-family: 'Oswald', sans-serif;
+  cursor: pointer;
+}
+.img-header {
+  padding: 30px;
+  width: 90px;
+  color: #540b0e;
+  cursor: pointer;
+}
+/* --------------end Header------------- */
+/* --------------start Body ----------- */
+.Body {
+  width: 100%;
+  /* height: 200vh; */
+  background-color: #fff;
+  margin-top: 120px;
+  margin-bottom: 200px;
+  border-radius: 30px;
+  position: relative;
+  z-index: 1;
+  top: 20%;
+}
+.group-btns{
+  display: flex;
+  justify-content: space-between;
+}
+.button-head{
+  width: 17%;
+  height: 70px;
+  background-color: #e09f3e;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 34px;
+  margin: 20px;
+  cursor: pointer;
+}
+.button-head img{
+  width: 68px;
+  height: 68px;
+  margin-top: 1px;
+  border-radius: 50px;
+}
+.button-head p{
+  font-size: 1.5rem;
+  padding: 10px 5px;
+  padding-top: 15px;
+  align-items: center;
+  margin: 10px 0px 0px 10px;
+  color: var(--pColor);
+
+}
+/* ------Cards----------- */
+.card-groub{
+  display: flex;
+  flex-wrap: wrap;  
+}  
+.card{
+  width: 30%;
+  height: 520px;
+  background-color: blanchedalmond;
+  border-radius: 10px; 
+  margin-left: 30px; 
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card .imgCard{
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
+  width: 100%;
+}
+.titleCard{
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--brown);
+}
+.des{
+  display: flex;
+  justify-content: space-between;
+}
+.container-price{
+  display: flex;
+  flex-direction: column  ;
+  margin: 0px 20px;
+}
+.container-price p{
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: var(--brown);
+}
+span{
+  color: var(--brown);
+  padding-left: 5px;
+}
+.imgAdd{
+  width: 50px;
+}
+.addButton{
+  cursor:pointer;
+}
+
+
+/* -----footer -------- */
+.footer{
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(204, 223, 217);
+  position: absolute;
+  z-index: 0;
+  position: fixed;
+  bottom: 0px;
+}
